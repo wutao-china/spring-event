@@ -13,11 +13,10 @@ public class MailSender implements ApplicationContextAware {
 	}
 	
 	public void sendMail(String to){
-		System.out.println("模拟发送邮件。。。");
+		System.out.println("模拟发送邮件。。。(业务代码在这里)");
 		
 		MailSendEvent mse = new MailSendEvent(ctx, to);
 		
 		ctx.publishEvent(mse);
 	}
-
 }
