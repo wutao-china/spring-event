@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContextAware;
 
 public class MailSender implements ApplicationContextAware {
 	private ApplicationContext ctx;
-	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		// TODO Auto-generated method stub
 		this.ctx = applicationContext;

@@ -4,7 +4,6 @@ import org.springframework.context.ApplicationListener;
 
 public class MailSendListener implements ApplicationListener<MailSendEvent> {
 
-	@Override
 	public void onApplicationEvent(MailSendEvent event) {
 		// TODO Auto-generated method stub
 		MailSendEvent mse = (MailSendEvent) event;

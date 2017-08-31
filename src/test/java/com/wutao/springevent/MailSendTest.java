@@ -13,4 +13,6 @@ public class MailSendTest {
 		
 		sender.sendMail("823222759@qq.com");
 	}
+	
+	
 }
